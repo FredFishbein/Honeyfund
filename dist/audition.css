@@ -18282,6 +18282,10 @@ h2 {
   display: none;
 }
 
+.button-sm-text {
+  display: none;
+}
+
 .full-text {
   padding-top: 28px;
 }
@@ -18299,7 +18303,13 @@ h2 {
   .short-text {
     display: inline-block;
   }
+  .button-sm-text {
+    display: inline;
+  }
   .full-text {
+    display: none;
+  }
+  .button-lg-text {
     display: none;
   }
   #orangeExclamation {
